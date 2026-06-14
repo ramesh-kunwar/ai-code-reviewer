@@ -8,5 +8,5 @@ export default async function ProtectedLayout({
 }) {
   await requireAuth();
 
-  return <div className="min-h-svh">{children}</div>;
+  return <div className="min-h-svh ">{children}</div>;
 }
